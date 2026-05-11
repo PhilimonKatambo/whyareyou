@@ -12,6 +12,7 @@ body{
   align-items: center;
   gap: 20px;
   padding-top: 50px;
+  flex-wrap: wrap;
 }
 #big{
   margin: 0 auto;
