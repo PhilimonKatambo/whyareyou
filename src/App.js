@@ -72,6 +72,10 @@ function App() {
       </div>
 
       </div>
+
+      <div id='name'>
+        By The warge
+      </div>
       
     </div>
   );

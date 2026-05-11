@@ -69,3 +69,10 @@ body{
   font-size: 30px;
   color: #9f2e5b;
 }
+
+#name{
+  position: absolute;
+  color: #5a45b7;
+  bottom: 20px;
+  right: 20px;
+}
