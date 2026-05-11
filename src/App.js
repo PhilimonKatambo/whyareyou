@@ -29,7 +29,7 @@ function App() {
 
   return (
     <div id="bd">
-      <img src='assets/download.jpg'></img>
+      <img src='assets/download.jpg' alt='hello'></img>
       <div id="big">
         <div id="question">Why are you gay?</div>
 
