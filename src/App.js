@@ -29,7 +29,10 @@ function App() {
 
   return (
     <div id="bd">
+      
       <img src='assets/download.jpg' alt='hello'></img>
+
+      <div style={{display:"flow", flexDirection:"column", gap:"40px"}}>
       <div id="big">
         <div id="question">Why are you gay?</div>
 
@@ -67,6 +70,9 @@ function App() {
           </div>
         )}
       </div>
+
+      </div>
+      
     </div>
   );
 }
