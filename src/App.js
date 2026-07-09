@@ -2,30 +2,30 @@ import { useState } from 'react';
 import './App.css';
 
 function App() {
-  const [answer, setAnswer] = useState("");
-  const [show, setShow] = useState(false);
-  const [analyse, setAnalyse] = useState("");
+  // const [answer, setAnswer] = useState("");
+  // const [show, setShow] = useState(false);
+  // const [analyse, setAnalyse] = useState("");
 
 
-  const showw = () => {
-    setAnalyse("Analysing your answer");
+  // const showw = () => {
+  //   setAnalyse("Analysing your answer");
 
-    let dots = 0;
+  //   let dots = 0;
 
-    const interval = setInterval(() => {
-      dots++;
+  //   const interval = setInterval(() => {
+  //     dots++;
 
-      setAnalyse("Analysing your answer" + ".".repeat(dots));
+  //     setAnalyse("Analysing your answer" + ".".repeat(dots));
 
-      if (dots >= 10) {
-        clearInterval(interval);
+  //     if (dots >= 10) {
+  //       clearInterval(interval);
 
-        setTimeout(() => {
-          setShow(true);
-        }, 500);
-      }
-    }, 300);
-  };
+  //       setTimeout(() => {
+  //         setShow(true);
+  //       }, 500);
+  //     }
+  //   }, 300);
+  // };
 
   return (
     <div id="bd">
