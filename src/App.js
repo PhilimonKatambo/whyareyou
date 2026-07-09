@@ -29,8 +29,13 @@ function App() {
 
   return (
     <div id="bd">
+
+      {/* <img src='assets/download.jpg' alt='hello'></img> */}
+      <div id='f'>Fuck</div>
+      <div id='u'>You!</div>
+      <img src='assets/OIP.webp' alt='fuck' style={{width:"100px",height:"100px"}}></img> 
       
-      <img src='assets/download.jpg' alt='hello'></img>
+      {/* <img src='assets/download.jpg' alt='hello'></img>
 
       <div style={{display:"flow", flexDirection:"column", gap:"40px"}}>
       <div id="big">
@@ -75,7 +80,7 @@ function App() {
 
       <div id='name'>
         By The warge
-      </div>
+      </div> */}
       
     </div>
   );
